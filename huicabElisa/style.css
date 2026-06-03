@@ -1,0 +1,106 @@
+body{
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background-color: black;
+    color: darkgrey;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 3px solid white;                                                          
+}
+
+header .logo{
+    max-width: 350px;
+    margin-bottom: 10px;
+    display: lock;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1{
+    margin: 0;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Necrotic', sans-serif;
+}
+
+header p{
+    color: darkred;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+main{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main section{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 3px solid red;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+main section h2{
+    color: black;
+    margin-top: 0;
+    border-bottom: 1 px solid black;
+    padding-bottom: 10px;
+}
+
+main section img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+
+footer ul{
+    list-style-type: none;
+    color: rgb(222, 222, 222);
+    padding-left: 20px;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9rem;
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+
+a:link{
+    color:rgb(165, 165, 165)
+}
+a:hover{
+    color:rgb(121, 188, 255)
+}
+a:visited{
+    color: rgb(126, 115, 201);
+}
+#carouselExample{
+    max-width: 60%;
+    margin: 0 auto;
+}
